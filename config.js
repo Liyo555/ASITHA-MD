@@ -1,10 +1,10 @@
-const fs = require('fs');
+yconst fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=O7YC3JYI#54UqzShFpJ-zBC8P7vNlB-ShcWVKOdB0Mmqf1O3lGww",
+SESSION_ID: process.env.SESSION_ID || "𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=zqxQRIwD#rmZzZCkkv8PShcPZZfGN6SKF28uAv5YPxPQkqi_SSVI",
 MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",//enter mongo db url
 };
